@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: sans-serif;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    background: #F7F7F7;
+}
+
+
+/* Form */
+
+ul {
+    margin: 0 auto;
+    max-height: 270px;
+    height: 100%;
+    max-width: 534px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 135px;
+    background: #88839E;
+}
+
+li {
+    display: flex;
+    padding: 12px 12px 12px;
+}
+
+
+
+
+div {
+    display: flex;
+}
+
+/* Header */
+
+header {
+    max-height: 82px;
+    height: 100%;
+    background: #4A4F56;
+}
+
+.main-form {
+    max-height: 507px;
+    height: 100%;
+    max-width: 793px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+
+}
+
+.h1-header {
+    font-weight: 700;
+    font-size: 24px;
+    color: #FF8984;
+    margin: 0 auto;
+    max-width: 300px;
+    width: 100%;
+}
+
+.h1-header~p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FF8984;
+    margin: 0 auto;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+/* checklist */
+
+.hecklist-form {
+    max-height: 425px;
+    height: 100%;
+    max-width: 793px;
+    margin: 0 auto;
+}
+
+div {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+
+
+.checkbox-items {
+    max-height: 45px;
+    max-width: 534px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.item-to-buy{
+    max-width: 45px;
+    height: 100%;
+}
+
+
+
+/* Footer */
+
+/* Reset Button */
+
+.reset-button{
+    width: 534px;
+    margin: 0 auto;
+}
