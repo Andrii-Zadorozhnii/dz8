@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="styles/styles.css" />
+    
     <title>Document</title>
+    
   </head>
   <body>
     <form class="main-form">
@@ -18,36 +20,37 @@
         <ul class="checklist">
           <li class="checkbox-items">
             <div>
-              <input type="checkbox" id="item-to-buy" name="item-to-buy" />
-              <label for="item-to-buy">A lot of pickles</label>
+              <input type="checkbox" id="item-to-buy1" name="item-to-buy1" />
+              <label for="item-to-buy1">A lot of pickles</label>
+              
               <p class="comment-to-item">(for the next lessons about CSS)</p>
             </div>
           </li>
           <li class="checkbox-items">
             <div>
-                <input type="checkbox" id="item-to-buy" name="item-to-buy" />
-                <label for="item-to-buy">10 apples</label>
+                <input type="checkbox" id="item-to-buy2" name="item-to-buy2" />
+                <label for="item-to-buy2">10 apples</label>
                 <p class="comment-to-item"> (for more CSS manipulations)</p>
               </div>
           </li>
           <li class="checkbox-items">
             <div>
-                <input type="checkbox" id="item-to-buy" name="item-to-buy" />
-                <label for="item-to-buy">20 oranges</label>
+                <input type="checkbox" id="item-to-buy3" name="item-to-buy3" />
+                <label for="item-to-buy3">20 oranges</label>
                 <p class="comment-to-item"> (because they are awesome)</p>
               </div>
           </li>
           <li class="checkbox-items">
             <div>
-                <input type="checkbox" id="item-to-buy" name="item-to-buy" />
-                <label for="item-to-buy">13 plates</label>
+                <input type="checkbox" id="item-to-buy4" name="item-to-buy4" />
+                <label for="item-to-buy4">13 plates</label>
                 <p class="comment-to-item"> (hm... they always dissapear)</p>
               </div>
           </li>
           <li class="checkbox-items">
             <div>
-                <input type="checkbox" id="item-to-buy" name="item-to-buy" />
-                <label for="item-to-buy">15 bentos</label>
+                <input type="checkbox" id="item-to-buy5" name="item-to-buy5" />
+                <label for="item-to-buy5">15 bentos</label>
                 <p class="comment-to-item"></p>
               </div>
           </li>
@@ -59,10 +62,10 @@
               </div>
           </li>
         </ul>
-        <footer>
-            <button class="reset-button" type="reset"> Bon appetit :)</button>
-        </footer>
-
+        <button class="btn-reset" type="reset"
+        onclick="alert('Form cleared');">
+        Bon appetit (reset)
+        </button>
     </form>
   </body>
 </html>
